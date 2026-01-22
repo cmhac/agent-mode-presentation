@@ -16,9 +16,7 @@ transition: fade
 
 # What is a coding agent?
 
-<!-- _class: invert -->
-
-An AI coding assistant mode where you **describe a high-level task** and the AI autonomously plans, implements, and tests the code across your project.
+An AI coding agent is an AI system that can autonomously make changes to your codebase to accomplish high-level tasks.
 
 ---
 
@@ -34,9 +32,9 @@ An AI coding assistant mode where you **describe a high-level task** and the AI 
 
 # How AI coding agents work
 
-AI coding agents can take more complex multi-step actions than tab completions or regular ChatGPT.
+AI coding agents can take multi-step actions that are more complex than tab completions or a regular AI chatbot.
 
-They can access your entire codebase , can run terminal commands and can use various tools to see the output of your code and check for errors.
+They can read your entire codebase, can run terminal commands, see the output of your code and check for errors, and even use custom tools to interact with external systems.
 
 ---
 
