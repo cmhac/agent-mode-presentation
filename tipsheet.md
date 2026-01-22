@@ -2,22 +2,28 @@
 
 A quick reference guide for working effectively with AI coding agents.
 
+## Key Concepts
+
+- **AI Coding Agents**: AI tools that can read, write, and modify code in your projects. Examples include GitHub Copilot, CodeGPT, and others.
+- **Tools**: Extensions to agent capabilities, such as accessing documentation, running tests, or browsing the web. AI coding agents decide independently when to use tools based on your instructions.
+- **Context Window**: The amount of code and information an agent can "see" at once. Larger context windows allow agents to understand more of your project, but they still have limits.
+
 ## Configuration Tools
 
 ### AGENTS.md
 
-Create an `AGENTS.md` file in your project root to provide persistent context:
+Create an `AGENTS.md` file in your project root to provide each AI coding agent with consistent high-level project instructions. This file should include:
 
-- Project structure and organization
-- Technology stack (package managers, frameworks, workflow tools)
-- Critical constraints and preferences
-- Standard commands and procedures
+- A brief **project overview** explaining in 1-2 sentences what the project is about
+- A general **project structure** explaining the purposes of key directories and files
+- **Environment setup** instructions for installing dependencies and running the project
+- **Coding standards** such as linting, formatting, and testing requirements
 
-Works across platforms: GitHub Copilot, Cursor, Codex, etc.
+Keep this file as brief as possible; the longer it is, the less likely agents are to remember all of it. If you need to provide more detailed instructions, move on to Skills or MCP Servers below.
 
 ### Skills
 
-[Skills](https://agentskills.io/home) provide task-specific instructions and tool sets for different scenarios beyond project-level guidance. Skills let you customize agent behavior for specialized tasks like documentation maintenance, testing workflows, or domain-specific operations.
+[Skills](https://agentskills.io/home) provide task-specific instructions and tool sets for different scenarios beyond project-level guidance. Skills let you customize agent behavior for specialized tasks like documentation maintenance, testing workflows, or domain-specific operations. They are defined as markdown files stored in your repository, and can contain more detailed instructions than `AGENTS.md`.
 
 ### MCP Servers
 
