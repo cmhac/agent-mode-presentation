@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build:html": "marp presentation.md --allow-local-files --html -o dist/index.html",
+    "build:html": "marp presentation.md --allow-local-files --html -o dist/presentation.html",
     "build:pdf": "marp presentation.md --allow-local-files --pdf -o dist/presentation.pdf",
     "build:pptx": "marp presentation.md --allow-local-files --pptx -o dist/presentation.pptx",
     "build:pptx:editable": "marp presentation.md --pptx-editable --allow-local-files -o dist/presentation-editable.pptx",

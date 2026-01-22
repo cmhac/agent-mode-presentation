@@ -9,7 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, "..");
 
 const requiredFiles = [
-  "dist/index.html",
+  "dist/presentation.html",
   "dist/presentation.pdf",
   "dist/presentation.pptx",
 ];
@@ -42,7 +42,7 @@ const sourceFiles = [
   "marp.config.mjs",
 ];
 
-const distFiles = ["dist/index.html", "dist/presentation.pdf"];
+const distFiles = ["dist/presentation.html", "dist/presentation.pdf"];
 
 for (const source of sourceFiles) {
   const sourcePath = join(rootDir, source);
