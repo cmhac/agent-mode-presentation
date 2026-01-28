@@ -1,4 +1,4 @@
-# AI Coding Agents Tipsheet
+# Using AI Coding Agents
 
 A quick reference guide for working effectively with AI coding agents.
 

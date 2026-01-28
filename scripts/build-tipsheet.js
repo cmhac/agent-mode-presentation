@@ -25,7 +25,7 @@ const html = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Coding Agents Tipsheet</title>
+  <title>Using AI Coding Agents</title>
   <style>
 ${css}
   </style>
